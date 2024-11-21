@@ -81,14 +81,23 @@ io.on('connection', (socket) => {
   socket.on('startSensorScan', (sensorId) => {
     console.log(`Start scan for sensor ID: ${sensorId}`);
 
-    // Thực hiện logic xử lý: Gửi dữ liệu hoặc bắt đầu quá trình scan
-    socket.emit(`sensor/${sensorId}/scanResultData`, scanDataMock); // Gửi lại dữ liệu scan tới client
+    socket.emit(`sensor/${sensorId}/scanResultData`, scanDataMock);
+
+    // Gửi thông báo bắt đầu scan thành công
+    socket.emit('startSensorScanResponse', {
+      code: 200,
+      message: 'Start thành công',
+    });
   });
 
   // Lắng nghe sự kiện stopSensorScan từ client
   socket.on('stopSensorScan', (sensorId) => {
     console.log(`Stop scan for sensor ID: ${sensorId}`);
     // Dừng scan hoặc ngắt kết nối liên quan đến sensorId (nếu cần)
+  });
+  socket.emit('stopSensorScanResponse', {
+    code: 200,
+    message: 'Stop thành công',
   });
   // Xử lý khi client ngắt kết nối
   socket.on('disconnect', () => {

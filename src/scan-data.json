@@ -1,99 +1,35 @@
 {
   "code": 200,
-  "data": [
-    {
-      "timestamp": 1731436677000,
-      "aps": [
+  "data": {
+    "timestamp": 1731436677000,
+    "aps": [
+      {
+        "timestamp": 1731436677000,
+        "essid": "Network_1",
+        "bssid": "00:11:22:33:44:55",
+        "freq": "2.4",
+        "channel": 6,
+        "pwr": -65,
+        "max_pwr": -40,
+        "encryption": "WPA2",
+        "vendor": "Cisco",
+        "num_client": 15,
+        "note": "Ghi chú 1",
+        "trust": true
+      }
+    ],
+    "stations": {
+      "bssid_abc": [
         {
           "timestamp": 1731436677000,
-          "essid": "Network_1",
-          "bssid": "00:11:22:33:44:55",
-          "freq": "2.4",
-          "channel": 6,
+          "ap": "bssid_abc",
+          "mac": "12:34:56:78:9A:BC",
           "pwr": -65,
-          "max_pwr": -40,
-          "encryption": "WPA2",
           "vendor": "Cisco",
-          "num_client": 15,
-          "note": "Ghi chú 1",
-          "trust": true
+          "note": "Ghi chú Station 1"
         }
-      ],
-      "stations": {
-        "bssid_abc": [
-          {
-            "timestamp": 1731436677000,
-            "ap": "bssid_abc",
-            "mac": "12:34:56:78:9A:BC",
-            "pwr": -65,
-            "vendor": "Cisco",
-            "note": "Ghi chú Station 1"
-          }
-        ]
-      }
-    },
-    {
-      "timestamp": 1731436678000,
-      "aps": [
-        {
-          "timestamp": 1731436678000,
-          "essid": "Network_2",
-          "bssid": "66:77:88:99:AA:BB",
-          "freq": "5",
-          "channel": 36,
-          "pwr": -70,
-          "max_pwr": -35,
-          "encryption": "WPA3",
-          "vendor": "Netgear",
-          "num_client": 25,
-          "note": "Ghi chú 2",
-          "trust": false
-        }
-      ],
-      "stations": {
-        "bssid_xyz": [
-          {
-            "timestamp": 1731436678000,
-            "ap": "bssid_xyz",
-            "mac": "98:76:54:32:10:FF",
-            "pwr": -75,
-            "vendor": "Netgear",
-            "note": "Ghi chú Station 2"
-          }
-        ]
-      }
-    },
-    {
-      "timestamp": 1731436679000,
-      "aps": [
-        {
-          "timestamp": 1731436679000,
-          "essid": "Network_3",
-          "bssid": "AB:CD:EF:01:23:45",
-          "freq": "2.4",
-          "channel": 11,
-          "pwr": -68,
-          "max_pwr": -38,
-          "encryption": "WPA2",
-          "vendor": "TP-Link",
-          "num_client": 18,
-          "note": "Ghi chú 3",
-          "trust": true
-        }
-      ],
-      "stations": {
-        "bssid_123": [
-          {
-            "timestamp": 1731436679000,
-            "ap": "bssid_123",
-            "mac": "AA:BB:CC:DD:EE:FF",
-            "pwr": -60,
-            "vendor": "TP-Link",
-            "note": "Ghi chú Station 3"
-          }
-        ]
-      }
+      ]
     }
-  ],
+  },
   "message": "Lấy kết quả scan của sensor thành công"
 }
