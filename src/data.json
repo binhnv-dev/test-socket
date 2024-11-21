@@ -2,69 +2,40 @@
   "code": 200,
   "data": [
     {
-      "id": "binhvodoi123",
-      "name": "Sensor 990",
-      "status": "stop",
-      "last_seen": "2024-07-30T14:35:07",
-      "position": "Vị trí 4",
-      "noti_aps": [
-        { "mac": "51:6a:ee:d7:72:f5", "operator": "=", "rssi": -97 },
-        { "mac": "6b:86:56:e3:ed:85", "operator": "+", "rssi": -64 },
-        { "mac": "78:48:18:15:0a:e1", "operator": "+", "rssi": -15 }
-      ],
-      "noti_clients": [
-        { "mac": "b2:bb:4d:3a:fb:b5", "operator": "=", "rssi": -91 },
-        { "mac": "57:22:11:2b:4e:5b", "operator": "=", "rssi": -34 }
-      ],
-      "noti_channels": [6, 36, 11]
-    },
-    {
-      "id": "a4401292-d3f4-446d-87bf-815edc302677",
-      "name": "Sensor 25",
-      "status": "stop",
-      "last_seen": "2024-07-18T15:20:26",
-      "position": "Vị trí 5",
-      "noti_aps": [
-        { "mac": "1f:4a:f0:bc:e5:05", "operator": "+", "rssi": -75 }
-      ],
-      "noti_clients": [
-        { "mac": "74:a9:a7:79:1a:a5", "operator": "+", "rssi": -58 },
-        { "mac": "f4:f1:13:99:b7:e9", "operator": "+", "rssi": -89 }
-      ],
-      "noti_channels": [36, 11, 1]
-    },
-    {
-      "id": "2cee1868-1288-49fd-a3bb-b070d7676f27",
-      "name": "Sensor 396",
-      "status": "run",
-      "last_seen": "2024-11-01T06:08:06",
-      "position": "Vị trí 2",
-      "noti_aps": [
-        { "mac": "14:65:7d:d6:de:a2", "operator": "+", "rssi": -34 },
-        { "mac": "46:c5:20:bd:7b:2b", "operator": "-", "rssi": -54 },
-        { "mac": "5b:9a:29:32:9a:41", "operator": "-", "rssi": -32 }
-      ],
-      "noti_clients": [
-        { "mac": "55:a0:97:0f:8b:0b", "operator": "", "rssi": -56 },
-        { "mac": "74:41:b5:5f:20:23", "operator": "-", "rssi": -40 }
-      ],
-      "noti_channels": [40, 36, 11]
-    },
-    {
       "id": "c45706c4-28ca-442d-b451-4bdad38891b1",
       "name": "Sensor 789",
       "status": "run",
       "last_seen": "2024-04-01T23:50:56",
       "position": "Vị trí 1",
       "noti_aps": [
-        { "mac": "f7:67:31:5e:38:f5", "operator": "-", "rssi": -84 }
+        {
+          "mac": "f7:67:31:5e:38:f5",
+          "operator": "-",
+          "rssi": -84
+        }
       ],
       "noti_clients": [
-        { "mac": "9f:b3:63:8a:bc:b8", "operator": "+", "rssi": -91 },
-        { "mac": "7c:28:ca:c8:53:fa", "operator": "+", "rssi": -76 },
-        { "mac": "4f:31:38:0b:d3:a7", "operator": "", "rssi": -31 }
+        {
+          "mac": "9f:b3:63:8a:bc:b8",
+          "operator": "+",
+          "rssi": -91
+        },
+        {
+          "mac": "7c:28:ca:c8:53:fa",
+          "operator": "+",
+          "rssi": -76
+        },
+        {
+          "mac": "4f:31:38:0b:d3:a7",
+          "operator": "",
+          "rssi": -31
+        }
       ],
-      "noti_channels": [11, 36, 1]
+      "noti_channels": [
+        11,
+        36,
+        1
+      ]
     },
     {
       "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb10",
@@ -73,16 +44,44 @@
       "last_seen": "2024-09-28T07:42:30",
       "position": "Vị trí 2",
       "noti_aps": [
-        { "mac": "3a:2e:a5:9d:a4:b3", "operator": "+", "rssi": -14 },
-        { "mac": "04:dc:4d:ef:11:32", "operator": "", "rssi": -39 },
-        { "mac": "6e:25:25:4e:ee:80", "operator": "-", "rssi": -78 }
+        {
+          "mac": "3a:2e:a5:9d:a4:b3",
+          "operator": "+",
+          "rssi": -14
+        },
+        {
+          "mac": "04:dc:4d:ef:11:32",
+          "operator": "",
+          "rssi": -39
+        },
+        {
+          "mac": "6e:25:25:4e:ee:80",
+          "operator": "-",
+          "rssi": -78
+        }
       ],
       "noti_clients": [
-        { "mac": "37:ea:1e:cc:da:c7", "operator": "=", "rssi": -43 },
-        { "mac": "07:9d:61:40:95:e3", "operator": "+", "rssi": -67 },
-        { "mac": "a7:4f:60:7e:3c:c6", "operator": "-", "rssi": -15 }
+        {
+          "mac": "37:ea:1e:cc:da:c7",
+          "operator": "=",
+          "rssi": -43
+        },
+        {
+          "mac": "07:9d:61:40:95:e3",
+          "operator": "+",
+          "rssi": -67
+        },
+        {
+          "mac": "a7:4f:60:7e:3c:c6",
+          "operator": "-",
+          "rssi": -15
+        }
       ],
-      "noti_channels": [40, 11, 36]
+      "noti_channels": [
+        40,
+        11,
+        36
+      ]
     },
     {
       "id": "22e0f609-610f-401d-b0d9-92498278ce3c",
@@ -91,47 +90,39 @@
       "last_seen": "2024-07-30T14:35:07",
       "position": "Vị trí 4",
       "noti_aps": [
-        { "mac": "51:6a:ee:d7:72:f5", "operator": "=", "rssi": -97 },
-        { "mac": "6b:86:56:e3:ed:85", "operator": "+", "rssi": -64 },
-        { "mac": "78:48:18:15:0a:e1", "operator": "+", "rssi": -15 }
+        {
+          "mac": "51:6a:ee:d7:72:f5",
+          "operator": "=",
+          "rssi": -97
+        },
+        {
+          "mac": "6b:86:56:e3:ed:85",
+          "operator": "+",
+          "rssi": -64
+        },
+        {
+          "mac": "78:48:18:15:0a:e1",
+          "operator": "+",
+          "rssi": -15
+        }
       ],
       "noti_clients": [
-        { "mac": "b2:bb:4d:3a:fb:b5", "operator": "=", "rssi": -91 },
-        { "mac": "57:22:11:2b:4e:5b", "operator": "=", "rssi": -34 }
+        {
+          "mac": "b2:bb:4d:3a:fb:b5",
+          "operator": "=",
+          "rssi": -91
+        },
+        {
+          "mac": "57:22:11:2b:4e:5b",
+          "operator": "=",
+          "rssi": -34
+        }
       ],
-      "noti_channels": [6, 36, 11]
-    },
-    {
-      "id": "a4401292-d3f4-446d-87bf-815edc302677",
-      "name": "Sensor 25",
-      "status": "stop",
-      "last_seen": "2024-07-18T15:20:26",
-      "position": "Vị trí 5",
-      "noti_aps": [
-        { "mac": "1f:4a:f0:bc:e5:05", "operator": "+", "rssi": -75 }
-      ],
-      "noti_clients": [
-        { "mac": "74:a9:a7:79:1a:a5", "operator": "+", "rssi": -58 },
-        { "mac": "f4:f1:13:99:b7:e9", "operator": "+", "rssi": -89 }
-      ],
-      "noti_channels": [36, 11, 1]
-    },
-    {
-      "id": "2cee1868-1288-49fd-a3bb-b070d7676f27",
-      "name": "Sensor 396",
-      "status": "run",
-      "last_seen": "2024-11-01T06:08:06",
-      "position": "Vị trí 2",
-      "noti_aps": [
-        { "mac": "14:65:7d:d6:de:a2", "operator": "+", "rssi": -34 },
-        { "mac": "46:c5:20:bd:7b:2b", "operator": "-", "rssi": -54 },
-        { "mac": "5b:9a:29:32:9a:41", "operator": "-", "rssi": -32 }
-      ],
-      "noti_clients": [
-        { "mac": "55:a0:97:0f:8b:0b", "operator": "", "rssi": -56 },
-        { "mac": "74:41:b5:5f:20:23", "operator": "-", "rssi": -40 }
-      ],
-      "noti_channels": [40, 36, 11]
+      "noti_channels": [
+        6,
+        36,
+        11
+      ]
     },
     {
       "id": "c45706c4-28ca-442d-b451-4bdad38891b1",
@@ -140,14 +131,34 @@
       "last_seen": "2024-04-01T23:50:56",
       "position": "Vị trí 1",
       "noti_aps": [
-        { "mac": "f7:67:31:5e:38:f5", "operator": "-", "rssi": -84 }
+        {
+          "mac": "f7:67:31:5e:38:f5",
+          "operator": "-",
+          "rssi": -84
+        }
       ],
       "noti_clients": [
-        { "mac": "9f:b3:63:8a:bc:b8", "operator": "+", "rssi": -91 },
-        { "mac": "7c:28:ca:c8:53:fa", "operator": "+", "rssi": -76 },
-        { "mac": "4f:31:38:0b:d3:a7", "operator": "", "rssi": -31 }
+        {
+          "mac": "9f:b3:63:8a:bc:b8",
+          "operator": "+",
+          "rssi": -91
+        },
+        {
+          "mac": "7c:28:ca:c8:53:fa",
+          "operator": "+",
+          "rssi": -76
+        },
+        {
+          "mac": "4f:31:38:0b:d3:a7",
+          "operator": "",
+          "rssi": -31
+        }
       ],
-      "noti_channels": [11, 36, 1]
+      "noti_channels": [
+        11,
+        36,
+        1
+      ]
     },
     {
       "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb10",
@@ -156,16 +167,44 @@
       "last_seen": "2024-09-28T07:42:30",
       "position": "Vị trí 2",
       "noti_aps": [
-        { "mac": "3a:2e:a5:9d:a4:b3", "operator": "+", "rssi": -14 },
-        { "mac": "04:dc:4d:ef:11:32", "operator": "", "rssi": -39 },
-        { "mac": "6e:25:25:4e:ee:80", "operator": "-", "rssi": -78 }
+        {
+          "mac": "3a:2e:a5:9d:a4:b3",
+          "operator": "+",
+          "rssi": -14
+        },
+        {
+          "mac": "04:dc:4d:ef:11:32",
+          "operator": "",
+          "rssi": -39
+        },
+        {
+          "mac": "6e:25:25:4e:ee:80",
+          "operator": "-",
+          "rssi": -78
+        }
       ],
       "noti_clients": [
-        { "mac": "37:ea:1e:cc:da:c7", "operator": "=", "rssi": -43 },
-        { "mac": "07:9d:61:40:95:e3", "operator": "+", "rssi": -67 },
-        { "mac": "a7:4f:60:7e:3c:c6", "operator": "-", "rssi": -15 }
+        {
+          "mac": "37:ea:1e:cc:da:c7",
+          "operator": "=",
+          "rssi": -43
+        },
+        {
+          "mac": "07:9d:61:40:95:e3",
+          "operator": "+",
+          "rssi": -67
+        },
+        {
+          "mac": "a7:4f:60:7e:3c:c6",
+          "operator": "-",
+          "rssi": -15
+        }
       ],
-      "noti_channels": [40, 11, 36]
+      "noti_channels": [
+        40,
+        11,
+        36
+      ]
     },
     {
       "id": "22e0f609-610f-401d-b0d9-92498278ce3c",
@@ -174,47 +213,39 @@
       "last_seen": "2024-07-30T14:35:07",
       "position": "Vị trí 4",
       "noti_aps": [
-        { "mac": "51:6a:ee:d7:72:f5", "operator": "=", "rssi": -97 },
-        { "mac": "6b:86:56:e3:ed:85", "operator": "+", "rssi": -64 },
-        { "mac": "78:48:18:15:0a:e1", "operator": "+", "rssi": -15 }
+        {
+          "mac": "51:6a:ee:d7:72:f5",
+          "operator": "=",
+          "rssi": -97
+        },
+        {
+          "mac": "6b:86:56:e3:ed:85",
+          "operator": "+",
+          "rssi": -64
+        },
+        {
+          "mac": "78:48:18:15:0a:e1",
+          "operator": "+",
+          "rssi": -15
+        }
       ],
       "noti_clients": [
-        { "mac": "b2:bb:4d:3a:fb:b5", "operator": "=", "rssi": -91 },
-        { "mac": "57:22:11:2b:4e:5b", "operator": "=", "rssi": -34 }
+        {
+          "mac": "b2:bb:4d:3a:fb:b5",
+          "operator": "=",
+          "rssi": -91
+        },
+        {
+          "mac": "57:22:11:2b:4e:5b",
+          "operator": "=",
+          "rssi": -34
+        }
       ],
-      "noti_channels": [6, 36, 11]
-    },
-    {
-      "id": "a4401292-d3f4-446d-87bf-815edc302677",
-      "name": "Sensor 25",
-      "status": "stop",
-      "last_seen": "2024-07-18T15:20:26",
-      "position": "Vị trí 5",
-      "noti_aps": [
-        { "mac": "1f:4a:f0:bc:e5:05", "operator": "+", "rssi": -75 }
-      ],
-      "noti_clients": [
-        { "mac": "74:a9:a7:79:1a:a5", "operator": "+", "rssi": -58 },
-        { "mac": "f4:f1:13:99:b7:e9", "operator": "+", "rssi": -89 }
-      ],
-      "noti_channels": [36, 11, 1]
-    },
-    {
-      "id": "2cee1868-1288-49fd-a3bb-b070d7676f27",
-      "name": "Sensor 396",
-      "status": "run",
-      "last_seen": "2024-11-01T06:08:06",
-      "position": "Vị trí 2",
-      "noti_aps": [
-        { "mac": "14:65:7d:d6:de:a2", "operator": "+", "rssi": -34 },
-        { "mac": "46:c5:20:bd:7b:2b", "operator": "-", "rssi": -54 },
-        { "mac": "5b:9a:29:32:9a:41", "operator": "-", "rssi": -32 }
-      ],
-      "noti_clients": [
-        { "mac": "55:a0:97:0f:8b:0b", "operator": "", "rssi": -56 },
-        { "mac": "74:41:b5:5f:20:23", "operator": "-", "rssi": -40 }
-      ],
-      "noti_channels": [40, 36, 11]
+      "noti_channels": [
+        6,
+        36,
+        11
+      ]
     },
     {
       "id": "c45706c4-28ca-442d-b451-4bdad38891b1",
@@ -223,14 +254,34 @@
       "last_seen": "2024-04-01T23:50:56",
       "position": "Vị trí 1",
       "noti_aps": [
-        { "mac": "f7:67:31:5e:38:f5", "operator": "-", "rssi": -84 }
+        {
+          "mac": "f7:67:31:5e:38:f5",
+          "operator": "-",
+          "rssi": -84
+        }
       ],
       "noti_clients": [
-        { "mac": "9f:b3:63:8a:bc:b8", "operator": "+", "rssi": -91 },
-        { "mac": "7c:28:ca:c8:53:fa", "operator": "+", "rssi": -76 },
-        { "mac": "4f:31:38:0b:d3:a7", "operator": "", "rssi": -31 }
+        {
+          "mac": "9f:b3:63:8a:bc:b8",
+          "operator": "+",
+          "rssi": -91
+        },
+        {
+          "mac": "7c:28:ca:c8:53:fa",
+          "operator": "+",
+          "rssi": -76
+        },
+        {
+          "mac": "4f:31:38:0b:d3:a7",
+          "operator": "",
+          "rssi": -31
+        }
       ],
-      "noti_channels": [11, 36, 1]
+      "noti_channels": [
+        11,
+        36,
+        1
+      ]
     },
     {
       "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb10",
@@ -239,16 +290,44 @@
       "last_seen": "2024-09-28T07:42:30",
       "position": "Vị trí 2",
       "noti_aps": [
-        { "mac": "3a:2e:a5:9d:a4:b3", "operator": "+", "rssi": -14 },
-        { "mac": "04:dc:4d:ef:11:32", "operator": "", "rssi": -39 },
-        { "mac": "6e:25:25:4e:ee:80", "operator": "-", "rssi": -78 }
+        {
+          "mac": "3a:2e:a5:9d:a4:b3",
+          "operator": "+",
+          "rssi": -14
+        },
+        {
+          "mac": "04:dc:4d:ef:11:32",
+          "operator": "",
+          "rssi": -39
+        },
+        {
+          "mac": "6e:25:25:4e:ee:80",
+          "operator": "-",
+          "rssi": -78
+        }
       ],
       "noti_clients": [
-        { "mac": "37:ea:1e:cc:da:c7", "operator": "=", "rssi": -43 },
-        { "mac": "07:9d:61:40:95:e3", "operator": "+", "rssi": -67 },
-        { "mac": "a7:4f:60:7e:3c:c6", "operator": "-", "rssi": -15 }
+        {
+          "mac": "37:ea:1e:cc:da:c7",
+          "operator": "=",
+          "rssi": -43
+        },
+        {
+          "mac": "07:9d:61:40:95:e3",
+          "operator": "+",
+          "rssi": -67
+        },
+        {
+          "mac": "a7:4f:60:7e:3c:c6",
+          "operator": "-",
+          "rssi": -15
+        }
       ],
-      "noti_channels": [40, 11, 36]
+      "noti_channels": [
+        40,
+        11,
+        36
+      ]
     },
     {
       "id": "22e0f609-610f-401d-b0d9-92498278ce3c",
@@ -257,47 +336,39 @@
       "last_seen": "2024-07-30T14:35:07",
       "position": "Vị trí 4",
       "noti_aps": [
-        { "mac": "51:6a:ee:d7:72:f5", "operator": "=", "rssi": -97 },
-        { "mac": "6b:86:56:e3:ed:85", "operator": "+", "rssi": -64 },
-        { "mac": "78:48:18:15:0a:e1", "operator": "+", "rssi": -15 }
+        {
+          "mac": "51:6a:ee:d7:72:f5",
+          "operator": "=",
+          "rssi": -97
+        },
+        {
+          "mac": "6b:86:56:e3:ed:85",
+          "operator": "+",
+          "rssi": -64
+        },
+        {
+          "mac": "78:48:18:15:0a:e1",
+          "operator": "+",
+          "rssi": -15
+        }
       ],
       "noti_clients": [
-        { "mac": "b2:bb:4d:3a:fb:b5", "operator": "=", "rssi": -91 },
-        { "mac": "57:22:11:2b:4e:5b", "operator": "=", "rssi": -34 }
+        {
+          "mac": "b2:bb:4d:3a:fb:b5",
+          "operator": "=",
+          "rssi": -91
+        },
+        {
+          "mac": "57:22:11:2b:4e:5b",
+          "operator": "=",
+          "rssi": -34
+        }
       ],
-      "noti_channels": [6, 36, 11]
-    },
-    {
-      "id": "a4401292-d3f4-446d-87bf-815edc302677",
-      "name": "Sensor 25",
-      "status": "stop",
-      "last_seen": "2024-07-18T15:20:26",
-      "position": "Vị trí 5",
-      "noti_aps": [
-        { "mac": "1f:4a:f0:bc:e5:05", "operator": "+", "rssi": -75 }
-      ],
-      "noti_clients": [
-        { "mac": "74:a9:a7:79:1a:a5", "operator": "+", "rssi": -58 },
-        { "mac": "f4:f1:13:99:b7:e9", "operator": "+", "rssi": -89 }
-      ],
-      "noti_channels": [36, 11, 1]
-    },
-    {
-      "id": "2cee1868-1288-49fd-a3bb-b070d7676f27",
-      "name": "Sensor 396",
-      "status": "run",
-      "last_seen": "2024-11-01T06:08:06",
-      "position": "Vị trí 2",
-      "noti_aps": [
-        { "mac": "14:65:7d:d6:de:a2", "operator": "+", "rssi": -34 },
-        { "mac": "46:c5:20:bd:7b:2b", "operator": "-", "rssi": -54 },
-        { "mac": "5b:9a:29:32:9a:41", "operator": "-", "rssi": -32 }
-      ],
-      "noti_clients": [
-        { "mac": "55:a0:97:0f:8b:0b", "operator": "", "rssi": -56 },
-        { "mac": "74:41:b5:5f:20:23", "operator": "-", "rssi": -40 }
-      ],
-      "noti_channels": [40, 36, 11]
+      "noti_channels": [
+        6,
+        36,
+        11
+      ]
     },
     {
       "id": "c45706c4-28ca-442d-b451-4bdad38891b1",
@@ -306,14 +377,34 @@
       "last_seen": "2024-04-01T23:50:56",
       "position": "Vị trí 1",
       "noti_aps": [
-        { "mac": "f7:67:31:5e:38:f5", "operator": "-", "rssi": -84 }
+        {
+          "mac": "f7:67:31:5e:38:f5",
+          "operator": "-",
+          "rssi": -84
+        }
       ],
       "noti_clients": [
-        { "mac": "9f:b3:63:8a:bc:b8", "operator": "+", "rssi": -91 },
-        { "mac": "7c:28:ca:c8:53:fa", "operator": "+", "rssi": -76 },
-        { "mac": "4f:31:38:0b:d3:a7", "operator": "", "rssi": -31 }
+        {
+          "mac": "9f:b3:63:8a:bc:b8",
+          "operator": "+",
+          "rssi": -91
+        },
+        {
+          "mac": "7c:28:ca:c8:53:fa",
+          "operator": "+",
+          "rssi": -76
+        },
+        {
+          "mac": "4f:31:38:0b:d3:a7",
+          "operator": "",
+          "rssi": -31
+        }
       ],
-      "noti_channels": [11, 36, 1]
+      "noti_channels": [
+        11,
+        36,
+        1
+      ]
     },
     {
       "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb10",
@@ -322,16 +413,44 @@
       "last_seen": "2024-09-28T07:42:30",
       "position": "Vị trí 2",
       "noti_aps": [
-        { "mac": "3a:2e:a5:9d:a4:b3", "operator": "+", "rssi": -14 },
-        { "mac": "04:dc:4d:ef:11:32", "operator": "", "rssi": -39 },
-        { "mac": "6e:25:25:4e:ee:80", "operator": "-", "rssi": -78 }
+        {
+          "mac": "3a:2e:a5:9d:a4:b3",
+          "operator": "+",
+          "rssi": -14
+        },
+        {
+          "mac": "04:dc:4d:ef:11:32",
+          "operator": "",
+          "rssi": -39
+        },
+        {
+          "mac": "6e:25:25:4e:ee:80",
+          "operator": "-",
+          "rssi": -78
+        }
       ],
       "noti_clients": [
-        { "mac": "37:ea:1e:cc:da:c7", "operator": "=", "rssi": -43 },
-        { "mac": "07:9d:61:40:95:e3", "operator": "+", "rssi": -67 },
-        { "mac": "a7:4f:60:7e:3c:c6", "operator": "-", "rssi": -15 }
+        {
+          "mac": "37:ea:1e:cc:da:c7",
+          "operator": "=",
+          "rssi": -43
+        },
+        {
+          "mac": "07:9d:61:40:95:e3",
+          "operator": "+",
+          "rssi": -67
+        },
+        {
+          "mac": "a7:4f:60:7e:3c:c6",
+          "operator": "-",
+          "rssi": -15
+        }
       ],
-      "noti_channels": [40, 11, 36]
+      "noti_channels": [
+        40,
+        11,
+        36
+      ]
     },
     {
       "id": "22e0f609-610f-401d-b0d9-92498278ce3c",
@@ -340,47 +459,39 @@
       "last_seen": "2024-07-30T14:35:07",
       "position": "Vị trí 4",
       "noti_aps": [
-        { "mac": "51:6a:ee:d7:72:f5", "operator": "=", "rssi": -97 },
-        { "mac": "6b:86:56:e3:ed:85", "operator": "+", "rssi": -64 },
-        { "mac": "78:48:18:15:0a:e1", "operator": "+", "rssi": -15 }
+        {
+          "mac": "51:6a:ee:d7:72:f5",
+          "operator": "=",
+          "rssi": -97
+        },
+        {
+          "mac": "6b:86:56:e3:ed:85",
+          "operator": "+",
+          "rssi": -64
+        },
+        {
+          "mac": "78:48:18:15:0a:e1",
+          "operator": "+",
+          "rssi": -15
+        }
       ],
       "noti_clients": [
-        { "mac": "b2:bb:4d:3a:fb:b5", "operator": "=", "rssi": -91 },
-        { "mac": "57:22:11:2b:4e:5b", "operator": "=", "rssi": -34 }
+        {
+          "mac": "b2:bb:4d:3a:fb:b5",
+          "operator": "=",
+          "rssi": -91
+        },
+        {
+          "mac": "57:22:11:2b:4e:5b",
+          "operator": "=",
+          "rssi": -34
+        }
       ],
-      "noti_channels": [6, 36, 11]
-    },
-    {
-      "id": "a4401292-d3f4-446d-87bf-815edc302677",
-      "name": "Sensor 25",
-      "status": "stop",
-      "last_seen": "2024-07-18T15:20:26",
-      "position": "Vị trí 5",
-      "noti_aps": [
-        { "mac": "1f:4a:f0:bc:e5:05", "operator": "+", "rssi": -75 }
-      ],
-      "noti_clients": [
-        { "mac": "74:a9:a7:79:1a:a5", "operator": "+", "rssi": -58 },
-        { "mac": "f4:f1:13:99:b7:e9", "operator": "+", "rssi": -89 }
-      ],
-      "noti_channels": [36, 11, 1]
-    },
-    {
-      "id": "2cee1868-1288-49fd-a3bb-b070d7676f27",
-      "name": "Sensor 396",
-      "status": "run",
-      "last_seen": "2024-11-01T06:08:06",
-      "position": "Vị trí 2",
-      "noti_aps": [
-        { "mac": "14:65:7d:d6:de:a2", "operator": "+", "rssi": -34 },
-        { "mac": "46:c5:20:bd:7b:2b", "operator": "-", "rssi": -54 },
-        { "mac": "5b:9a:29:32:9a:41", "operator": "-", "rssi": -32 }
-      ],
-      "noti_clients": [
-        { "mac": "55:a0:97:0f:8b:0b", "operator": "", "rssi": -56 },
-        { "mac": "74:41:b5:5f:20:23", "operator": "-", "rssi": -40 }
-      ],
-      "noti_channels": [40, 36, 11]
+      "noti_channels": [
+        6,
+        36,
+        11
+      ]
     },
     {
       "id": "c45706c4-28ca-442d-b451-4bdad38891b1",
@@ -389,14 +500,34 @@
       "last_seen": "2024-04-01T23:50:56",
       "position": "Vị trí 1",
       "noti_aps": [
-        { "mac": "f7:67:31:5e:38:f5", "operator": "-", "rssi": -84 }
+        {
+          "mac": "f7:67:31:5e:38:f5",
+          "operator": "-",
+          "rssi": -84
+        }
       ],
       "noti_clients": [
-        { "mac": "9f:b3:63:8a:bc:b8", "operator": "+", "rssi": -91 },
-        { "mac": "7c:28:ca:c8:53:fa", "operator": "+", "rssi": -76 },
-        { "mac": "4f:31:38:0b:d3:a7", "operator": "", "rssi": -31 }
+        {
+          "mac": "9f:b3:63:8a:bc:b8",
+          "operator": "+",
+          "rssi": -91
+        },
+        {
+          "mac": "7c:28:ca:c8:53:fa",
+          "operator": "+",
+          "rssi": -76
+        },
+        {
+          "mac": "4f:31:38:0b:d3:a7",
+          "operator": "",
+          "rssi": -31
+        }
       ],
-      "noti_channels": [11, 36, 1]
+      "noti_channels": [
+        11,
+        36,
+        1
+      ]
     },
     {
       "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb10",
@@ -405,16 +536,44 @@
       "last_seen": "2024-09-28T07:42:30",
       "position": "Vị trí 2",
       "noti_aps": [
-        { "mac": "3a:2e:a5:9d:a4:b3", "operator": "+", "rssi": -14 },
-        { "mac": "04:dc:4d:ef:11:32", "operator": "", "rssi": -39 },
-        { "mac": "6e:25:25:4e:ee:80", "operator": "-", "rssi": -78 }
+        {
+          "mac": "3a:2e:a5:9d:a4:b3",
+          "operator": "+",
+          "rssi": -14
+        },
+        {
+          "mac": "04:dc:4d:ef:11:32",
+          "operator": "",
+          "rssi": -39
+        },
+        {
+          "mac": "6e:25:25:4e:ee:80",
+          "operator": "-",
+          "rssi": -78
+        }
       ],
       "noti_clients": [
-        { "mac": "37:ea:1e:cc:da:c7", "operator": "=", "rssi": -43 },
-        { "mac": "07:9d:61:40:95:e3", "operator": "+", "rssi": -67 },
-        { "mac": "a7:4f:60:7e:3c:c6", "operator": "-", "rssi": -15 }
+        {
+          "mac": "37:ea:1e:cc:da:c7",
+          "operator": "=",
+          "rssi": -43
+        },
+        {
+          "mac": "07:9d:61:40:95:e3",
+          "operator": "+",
+          "rssi": -67
+        },
+        {
+          "mac": "a7:4f:60:7e:3c:c6",
+          "operator": "-",
+          "rssi": -15
+        }
       ],
-      "noti_channels": [40, 11, 36]
+      "noti_channels": [
+        40,
+        11,
+        36
+      ]
     }
   ],
   "message": "Lấy danh sách sensor thành công"
