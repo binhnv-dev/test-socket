@@ -18,8 +18,18 @@ const io = new Server(server, {
 const dataFilePath = path.join(__dirname, 'data.json');
 const dataScanFilePath = path.join(__dirname, 'scan-data.json');
 let sensorData = JSON.parse(fs.readFileSync(dataFilePath, 'utf8'));
-let scanDataMock = JSON.parse(fs.readFileSync(dataScanFilePath, 'utf8'));
+// let scanDataMock = JSON.parse(fs.readFileSync(dataScanFilePath, 'utf8'));
+const scanDataFilePath = path.join(__dirname, 'scan-data.json');
 
+const readScanData = () => {
+  try {
+    const data = fs.readFileSync(scanDataFilePath, 'utf-8');
+    return JSON.parse(data);
+  } catch (error) {
+    console.error('Error reading scan data:', error);
+    return { data: { aps: [], stations: [] } }; // Trả về dữ liệu mặc định nếu có lỗi
+  }
+};
 // Cấu hình CORS cho API (dành cho HTTP)
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', 'http://localhost:3000'); // Cho phép domain http://localhost:3000 truy cập
@@ -89,9 +99,11 @@ io.on('connection', (socket) => {
       message: 'Start scan thành công',
     });
 
+    const scanDataMock = readScanData();
     // Bắt đầu quét và gửi dữ liệu định kỳ qua socket
     scanInterval = setInterval(() => {
       io.emit(`sensor/${sensorId}/scanResultData`, scanDataMock);
+      console.log(123);
     }, 3000); // Gửi dữ liệu mỗi 3 giây
   });
 

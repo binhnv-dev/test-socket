@@ -2,8 +2,230 @@
   "code": 200,
   "data": [
     {
-      "id": "testNormal",
+      "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb11",
       "name": "Sensor test",
+      "status": 0,
+      "last_seen": "2024-04-01T23:50:56",
+      "position": "Vị trí 1",
+      "noti_aps": [
+        {
+          "mac": "f7:67:31:5e:38:f5",
+          "operator": "-",
+          "rssi": -84
+        }
+      ],
+      "noti_clients": [
+        {
+          "mac": "9f:b3:63:8a:bc:b8",
+          "operator": "+",
+          "rssi": -91
+        },
+        {
+          "mac": "7c:28:ca:c8:53:fa",
+          "operator": "+",
+          "rssi": -76
+        },
+        {
+          "mac": "4f:31:38:0b:d3:a7",
+          "operator": "",
+          "rssi": -31
+        }
+      ],
+      "noti_channels": [11, 36, 1]
+    },
+    {
+      "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb12",
+      "name": "Sensor 229",
+      "status": 2,
+      "last_seen": "2024-09-28T07:42:30",
+      "position": "Vị trí 2",
+      "noti_aps": [
+        {
+          "mac": "3a:2e:a5:9d:a4:b3",
+          "operator": "+",
+          "rssi": -14
+        },
+        {
+          "mac": "04:dc:4d:ef:11:32",
+          "operator": "",
+          "rssi": -39
+        },
+        {
+          "mac": "6e:25:25:4e:ee:80",
+          "operator": "-",
+          "rssi": -78
+        }
+      ],
+      "noti_clients": [
+        {
+          "mac": "37:ea:1e:cc:da:c7",
+          "operator": "=",
+          "rssi": -43
+        },
+        {
+          "mac": "07:9d:61:40:95:e3",
+          "operator": "+",
+          "rssi": -67
+        },
+        {
+          "mac": "a7:4f:60:7e:3c:c6",
+          "operator": "-",
+          "rssi": -15
+        }
+      ],
+      "noti_channels": [40, 11, 36]
+    },
+    {
+      "id": "22e0f609-610f-401d-b0d9-92498278ce3c3",
+      "name": "Sensor 990",
+      "status": 0,
+      "last_seen": "2024-07-30T14:35:07",
+      "position": "Vị trí 4",
+      "noti_aps": [
+        {
+          "mac": "51:6a:ee:d7:72:f5",
+          "operator": "=",
+          "rssi": -97
+        },
+        {
+          "mac": "6b:86:56:e3:ed:85",
+          "operator": "+",
+          "rssi": -64
+        },
+        {
+          "mac": "78:48:18:15:0a:e1",
+          "operator": "+",
+          "rssi": -15
+        }
+      ],
+      "noti_clients": [
+        {
+          "mac": "b2:bb:4d:3a:fb:b5",
+          "operator": "=",
+          "rssi": -91
+        },
+        {
+          "mac": "57:22:11:2b:4e:5b",
+          "operator": "=",
+          "rssi": -34
+        }
+      ],
+      "noti_channels": [6, 36, 11]
+    },
+    {
+      "id": "c45706c4-28ca-442d-b451-4bdad38891b14",
+      "name": "Sensor 789",
+      "status": 1,
+      "last_seen": "2024-04-01T23:50:56",
+      "position": "Vị trí 1",
+      "noti_aps": [
+        {
+          "mac": "f7:67:31:5e:38:f5",
+          "operator": "-",
+          "rssi": -84
+        }
+      ],
+      "noti_clients": [
+        {
+          "mac": "9f:b3:63:8a:bc:b8",
+          "operator": "+",
+          "rssi": -91
+        },
+        {
+          "mac": "7c:28:ca:c8:53:fa",
+          "operator": "+",
+          "rssi": -76
+        },
+        {
+          "mac": "4f:31:38:0b:d3:a7",
+          "operator": "",
+          "rssi": -31
+        }
+      ],
+      "noti_channels": [11, 36, 1]
+    },
+    {
+      "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb15",
+      "name": "Sensor 229",
+      "status": 1,
+      "last_seen": "2024-09-28T07:42:30",
+      "position": "Vị trí 2",
+      "noti_aps": [
+        {
+          "mac": "3a:2e:a5:9d:a4:b3",
+          "operator": "+",
+          "rssi": -14
+        },
+        {
+          "mac": "04:dc:4d:ef:11:32",
+          "operator": "",
+          "rssi": -39
+        },
+        {
+          "mac": "6e:25:25:4e:ee:80",
+          "operator": "-",
+          "rssi": -78
+        }
+      ],
+      "noti_clients": [
+        {
+          "mac": "37:ea:1e:cc:da:c7",
+          "operator": "=",
+          "rssi": -43
+        },
+        {
+          "mac": "07:9d:61:40:95:e3",
+          "operator": "+",
+          "rssi": -67
+        },
+        {
+          "mac": "a7:4f:60:7e:3c:c6",
+          "operator": "-",
+          "rssi": -15
+        }
+      ],
+      "noti_channels": [40, 11, 36]
+    },
+    {
+      "id": "22e0f609-610f-401d-b0d9-92498278ce36",
+      "name": "Sensor 990",
+      "status": "stop",
+      "last_seen": "2024-07-30T14:35:07",
+      "position": "Vị trí 4",
+      "noti_aps": [
+        {
+          "mac": "51:6a:ee:d7:72:f5",
+          "operator": "=",
+          "rssi": -97
+        },
+        {
+          "mac": "6b:86:56:e3:ed:85",
+          "operator": "+",
+          "rssi": -64
+        },
+        {
+          "mac": "78:48:18:15:0a:e1",
+          "operator": "+",
+          "rssi": -15
+        }
+      ],
+      "noti_clients": [
+        {
+          "mac": "b2:bb:4d:3a:fb:b5",
+          "operator": "=",
+          "rssi": -91
+        },
+        {
+          "mac": "57:22:11:2b:4e:5b",
+          "operator": "=",
+          "rssi": -34
+        }
+      ],
+      "noti_channels": [6, 36, 11]
+    },
+    {
+      "id": "c45706c4-28ca-442d-b451-4bdad38891b17",
+      "name": "Sensor 789",
       "status": "run",
       "last_seen": "2024-04-01T23:50:56",
       "position": "Vị trí 1",
@@ -34,7 +256,7 @@
       "noti_channels": [11, 36, 1]
     },
     {
-      "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb10",
+      "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb18",
       "name": "Sensor 229",
       "status": "run",
       "last_seen": "2024-09-28T07:42:30",
@@ -76,7 +298,7 @@
       "noti_channels": [40, 11, 36]
     },
     {
-      "id": "22e0f609-610f-401d-b0d9-92498278ce3c",
+      "id": "22e0f609-610f-401d-b0d9-92498278ce3c9",
       "name": "Sensor 990",
       "status": "stop",
       "last_seen": "2024-07-30T14:35:07",
@@ -113,7 +335,7 @@
       "noti_channels": [6, 36, 11]
     },
     {
-      "id": "c45706c4-28ca-442d-b451-4bdad38891b1",
+      "id": "c45706c4-28ca-442d-b451-4bdad38891b110",
       "name": "Sensor 789",
       "status": "run",
       "last_seen": "2024-04-01T23:50:56",
@@ -145,7 +367,7 @@
       "noti_channels": [11, 36, 1]
     },
     {
-      "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb10",
+      "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb1011",
       "name": "Sensor 229",
       "status": "run",
       "last_seen": "2024-09-28T07:42:30",
@@ -187,7 +409,7 @@
       "noti_channels": [40, 11, 36]
     },
     {
-      "id": "22e0f609-610f-401d-b0d9-92498278ce3c",
+      "id": "22e0f609-610f-401d-b0d9-92498278ce3c12",
       "name": "Sensor 990",
       "status": "stop",
       "last_seen": "2024-07-30T14:35:07",
@@ -224,7 +446,7 @@
       "noti_channels": [6, 36, 11]
     },
     {
-      "id": "c45706c4-28ca-442d-b451-4bdad38891b1",
+      "id": "c45706c4-28ca-442d-b451-4bdad38891b113",
       "name": "Sensor 789",
       "status": "run",
       "last_seen": "2024-04-01T23:50:56",
@@ -256,229 +478,7 @@
       "noti_channels": [11, 36, 1]
     },
     {
-      "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb10",
-      "name": "Sensor 229",
-      "status": "run",
-      "last_seen": "2024-09-28T07:42:30",
-      "position": "Vị trí 2",
-      "noti_aps": [
-        {
-          "mac": "3a:2e:a5:9d:a4:b3",
-          "operator": "+",
-          "rssi": -14
-        },
-        {
-          "mac": "04:dc:4d:ef:11:32",
-          "operator": "",
-          "rssi": -39
-        },
-        {
-          "mac": "6e:25:25:4e:ee:80",
-          "operator": "-",
-          "rssi": -78
-        }
-      ],
-      "noti_clients": [
-        {
-          "mac": "37:ea:1e:cc:da:c7",
-          "operator": "=",
-          "rssi": -43
-        },
-        {
-          "mac": "07:9d:61:40:95:e3",
-          "operator": "+",
-          "rssi": -67
-        },
-        {
-          "mac": "a7:4f:60:7e:3c:c6",
-          "operator": "-",
-          "rssi": -15
-        }
-      ],
-      "noti_channels": [40, 11, 36]
-    },
-    {
-      "id": "22e0f609-610f-401d-b0d9-92498278ce3c",
-      "name": "Sensor 990",
-      "status": "stop",
-      "last_seen": "2024-07-30T14:35:07",
-      "position": "Vị trí 4",
-      "noti_aps": [
-        {
-          "mac": "51:6a:ee:d7:72:f5",
-          "operator": "=",
-          "rssi": -97
-        },
-        {
-          "mac": "6b:86:56:e3:ed:85",
-          "operator": "+",
-          "rssi": -64
-        },
-        {
-          "mac": "78:48:18:15:0a:e1",
-          "operator": "+",
-          "rssi": -15
-        }
-      ],
-      "noti_clients": [
-        {
-          "mac": "b2:bb:4d:3a:fb:b5",
-          "operator": "=",
-          "rssi": -91
-        },
-        {
-          "mac": "57:22:11:2b:4e:5b",
-          "operator": "=",
-          "rssi": -34
-        }
-      ],
-      "noti_channels": [6, 36, 11]
-    },
-    {
-      "id": "c45706c4-28ca-442d-b451-4bdad38891b1",
-      "name": "Sensor 789",
-      "status": "run",
-      "last_seen": "2024-04-01T23:50:56",
-      "position": "Vị trí 1",
-      "noti_aps": [
-        {
-          "mac": "f7:67:31:5e:38:f5",
-          "operator": "-",
-          "rssi": -84
-        }
-      ],
-      "noti_clients": [
-        {
-          "mac": "9f:b3:63:8a:bc:b8",
-          "operator": "+",
-          "rssi": -91
-        },
-        {
-          "mac": "7c:28:ca:c8:53:fa",
-          "operator": "+",
-          "rssi": -76
-        },
-        {
-          "mac": "4f:31:38:0b:d3:a7",
-          "operator": "",
-          "rssi": -31
-        }
-      ],
-      "noti_channels": [11, 36, 1]
-    },
-    {
-      "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb10",
-      "name": "Sensor 229",
-      "status": "run",
-      "last_seen": "2024-09-28T07:42:30",
-      "position": "Vị trí 2",
-      "noti_aps": [
-        {
-          "mac": "3a:2e:a5:9d:a4:b3",
-          "operator": "+",
-          "rssi": -14
-        },
-        {
-          "mac": "04:dc:4d:ef:11:32",
-          "operator": "",
-          "rssi": -39
-        },
-        {
-          "mac": "6e:25:25:4e:ee:80",
-          "operator": "-",
-          "rssi": -78
-        }
-      ],
-      "noti_clients": [
-        {
-          "mac": "37:ea:1e:cc:da:c7",
-          "operator": "=",
-          "rssi": -43
-        },
-        {
-          "mac": "07:9d:61:40:95:e3",
-          "operator": "+",
-          "rssi": -67
-        },
-        {
-          "mac": "a7:4f:60:7e:3c:c6",
-          "operator": "-",
-          "rssi": -15
-        }
-      ],
-      "noti_channels": [40, 11, 36]
-    },
-    {
-      "id": "22e0f609-610f-401d-b0d9-92498278ce3c",
-      "name": "Sensor 990",
-      "status": "stop",
-      "last_seen": "2024-07-30T14:35:07",
-      "position": "Vị trí 4",
-      "noti_aps": [
-        {
-          "mac": "51:6a:ee:d7:72:f5",
-          "operator": "=",
-          "rssi": -97
-        },
-        {
-          "mac": "6b:86:56:e3:ed:85",
-          "operator": "+",
-          "rssi": -64
-        },
-        {
-          "mac": "78:48:18:15:0a:e1",
-          "operator": "+",
-          "rssi": -15
-        }
-      ],
-      "noti_clients": [
-        {
-          "mac": "b2:bb:4d:3a:fb:b5",
-          "operator": "=",
-          "rssi": -91
-        },
-        {
-          "mac": "57:22:11:2b:4e:5b",
-          "operator": "=",
-          "rssi": -34
-        }
-      ],
-      "noti_channels": [6, 36, 11]
-    },
-    {
-      "id": "c45706c4-28ca-442d-b451-4bdad38891b1",
-      "name": "Sensor 789",
-      "status": "run",
-      "last_seen": "2024-04-01T23:50:56",
-      "position": "Vị trí 1",
-      "noti_aps": [
-        {
-          "mac": "f7:67:31:5e:38:f5",
-          "operator": "-",
-          "rssi": -84
-        }
-      ],
-      "noti_clients": [
-        {
-          "mac": "9f:b3:63:8a:bc:b8",
-          "operator": "+",
-          "rssi": -91
-        },
-        {
-          "mac": "7c:28:ca:c8:53:fa",
-          "operator": "+",
-          "rssi": -76
-        },
-        {
-          "mac": "4f:31:38:0b:d3:a7",
-          "operator": "",
-          "rssi": -31
-        }
-      ],
-      "noti_channels": [11, 36, 1]
-    },
-    {
-      "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb10",
+      "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb1014",
       "name": "Sensor 229",
       "status": "run",
       "last_seen": "2024-09-28T07:42:30",
