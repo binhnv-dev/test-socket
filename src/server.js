@@ -77,28 +77,42 @@ io.on('connection', (socket) => {
     io.emit('sensorData', sensorData);
   });
 
+  let scanInterval = null;
   // Lắng nghe sự kiện startSensorScan từ client
-  socket.on('startSensorScan', (sensorId) => {
+  app.post('/api/v2/sensor/:id/start-scan', (req, res) => {
+    const sensorId = req.params.id;
     console.log(`Start scan for sensor ID: ${sensorId}`);
 
-    socket.emit(`sensor/${sensorId}/scanResultData`, scanDataMock);
-
     // Gửi thông báo bắt đầu scan thành công
-    socket.emit('startSensorScanResponse', {
+    res.json({
       code: 200,
-      message: 'Start thành công',
+      message: 'Start scan thành công',
     });
+
+    // Bắt đầu quét và gửi dữ liệu định kỳ qua socket
+    scanInterval = setInterval(() => {
+      io.emit(`sensor/${sensorId}/scanResultData`, scanDataMock);
+    }, 3000); // Gửi dữ liệu mỗi 3 giây
   });
 
   // Lắng nghe sự kiện stopSensorScan từ client
-  socket.on('stopSensorScan', (sensorId) => {
+  app.post('/api/v2/sensor/:id/stop-scan', (req, res) => {
+    const sensorId = req.params.id;
     console.log(`Stop scan for sensor ID: ${sensorId}`);
-    // Dừng scan hoặc ngắt kết nối liên quan đến sensorId (nếu cần)
+
+    // Dừng quét dữ liệu nếu có interval đang chạy
+    if (scanInterval) {
+      clearInterval(scanInterval);
+
+      scanInterval = null;
+    }
+
+    res.json({
+      code: 200,
+      message: 'Stop scan thành công',
+    });
   });
-  socket.emit('stopSensorScanResponse', {
-    code: 200,
-    message: 'Stop thành công',
-  });
+
   // Xử lý khi client ngắt kết nối
   socket.on('disconnect', () => {
     console.log('Client disconnected:', socket.id);
