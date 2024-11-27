@@ -33,7 +33,7 @@ const readScanData = () => {
 // Cấu hình CORS cho API (dành cho HTTP)
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', 'http://localhost:3000'); // Cho phép domain http://localhost:3000 truy cập
-  res.header('Access-Control-Allow-Methods', 'GET, POST, DELETE'); // Cho phép các phương thức GET và POST
+  res.header('Access-Control-Allow-Methods', 'GET, POST, DELETE,PUT'); // Cho phép các phương thức GET và POST
   res.header('Access-Control-Allow-Headers', 'Content-Type'); // Cho phép header Content-Type
   next();
 });
