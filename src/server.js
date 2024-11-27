@@ -125,6 +125,49 @@ io.on('connection', (socket) => {
     });
   });
 
+  // API endpoint để cập nhật thông tin sensor
+  app.put('/api/v2/sensor/:id', (req, res) => {
+    const sensorId = req.params.id;
+    const updatedSensor = req.body; // Lấy thông tin sensor cần cập nhật từ request body
+
+    // Kiểm tra sensor có tồn tại không
+    const sensorIndex = sensorData.data.findIndex(
+      (sensor) => sensor.id === sensorId
+    );
+
+    if (sensorIndex === -1) {
+      return res.status(404).json({
+        code: 404,
+        message: 'Sensor not found',
+      });
+    }
+
+    // Cập nhật thông tin sensor
+    sensorData.data[sensorIndex] = {
+      ...sensorData.data[sensorIndex],
+      ...updatedSensor,
+    };
+
+    // Ghi lại dữ liệu đã cập nhật vào file
+    try {
+      fs.writeFileSync(dataFilePath, JSON.stringify(sensorData, null, 2));
+    } catch (error) {
+      return res.status(500).json({
+        code: 500,
+        message: 'Failed to save sensor data',
+      });
+    }
+
+    // Phát tín hiệu cập nhật qua WebSocket
+    io.emit('sensorData', sensorData);
+
+    // Phản hồi thành công
+    res.status(200).json({
+      code: 200,
+      message: 'Sensor updated successfully',
+      data: sensorData.data[sensorIndex],
+    });
+  });
   // Xử lý khi client ngắt kết nối
   socket.on('disconnect', () => {
     console.log('Client disconnected:', socket.id);
