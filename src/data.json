@@ -10,14 +10,14 @@
       "noti_aps": [
         {
           "mac": "f7:67:31:5e:38:f5",
-          "operator": "",
+          "operator": "<",
           "rssi": -84
         }
       ],
       "noti_clients": [
         {
           "mac": "9f:b3:63:8a:bc:b8",
-          "operator": "<",
+          "operator": ">",
           "rssi": -91
         },
         {
@@ -31,7 +31,7 @@
           "rssi": -31
         }
       ],
-      "noti_channels": ["2.4", "5", "6"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb12",
@@ -42,7 +42,7 @@
       "noti_aps": [
         {
           "mac": "3a:2e:a5:9d:a4:b3",
-          "operator": "+",
+          "operator": ">",
           "rssi": -14
         },
         {
@@ -52,7 +52,7 @@
         },
         {
           "mac": "6e:25:25:4e:ee:80",
-          "operator": "-",
+          "operator": "<",
           "rssi": -78
         }
       ],
@@ -64,16 +64,16 @@
         },
         {
           "mac": "07:9d:61:40:95:e3",
-          "operator": "+",
+          "operator": ">",
           "rssi": -67
         },
         {
           "mac": "a7:4f:60:7e:3c:c6",
-          "operator": "-",
+          "operator": "<",
           "rssi": -15
         }
       ],
-      "noti_channels": ["2.4.1", "5.2", "6.2"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "22e0f609-610f-401d-b0d9-92498278ce3c3",
@@ -89,12 +89,12 @@
         },
         {
           "mac": "6b:86:56:e3:ed:85",
-          "operator": "+",
+          "operator": ">",
           "rssi": -64
         },
         {
           "mac": "78:48:18:15:0a:e1",
-          "operator": "+",
+          "operator": ">",
           "rssi": -15
         }
       ],
@@ -110,7 +110,7 @@
           "rssi": -34
         }
       ],
-      "noti_channels": ["2.4.4", "5.3", "6.5"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "c45706c4-28ca-442d-b451-4bdad38891b14",
@@ -121,19 +121,19 @@
       "noti_aps": [
         {
           "mac": "f7:67:31:5e:38:f5",
-          "operator": "-",
+          "operator": "",
           "rssi": -84
         }
       ],
       "noti_clients": [
         {
           "mac": "9f:b3:63:8a:bc:b8",
-          "operator": "+",
+          "operator": "",
           "rssi": -91
         },
         {
           "mac": "7c:28:ca:c8:53:fa",
-          "operator": "+",
+          "operator": "",
           "rssi": -76
         },
         {
@@ -142,7 +142,7 @@
           "rssi": -31
         }
       ],
-      "noti_channels": ["2.4.1", "5.2", "6.5"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb15",
@@ -153,7 +153,7 @@
       "noti_aps": [
         {
           "mac": "3a:2e:a5:9d:a4:b3",
-          "operator": "+",
+          "operator": ">",
           "rssi": -14
         },
         {
@@ -163,7 +163,7 @@
         },
         {
           "mac": "6e:25:25:4e:ee:80",
-          "operator": "-",
+          "operator": "<",
           "rssi": -78
         }
       ],
@@ -175,16 +175,16 @@
         },
         {
           "mac": "07:9d:61:40:95:e3",
-          "operator": "+",
+          "operator": ">",
           "rssi": -67
         },
         {
           "mac": "a7:4f:60:7e:3c:c6",
-          "operator": "-",
+          "operator": "<",
           "rssi": -15
         }
       ],
-      "noti_channels": ["2.4.2", "5.1", "6.2"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "22e0f609-610f-401d-b0d9-92498278ce36",
@@ -200,12 +200,12 @@
         },
         {
           "mac": "6b:86:56:e3:ed:85",
-          "operator": "+",
+          "operator": ">",
           "rssi": -64
         },
         {
           "mac": "78:48:18:15:0a:e1",
-          "operator": "+",
+          "operator": ">",
           "rssi": -15
         }
       ],
@@ -221,7 +221,7 @@
           "rssi": -34
         }
       ],
-      "noti_channels": ["2.4.1", "5.1", "6.1"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "c45706c4-28ca-442d-b451-4bdad38891b17",
@@ -232,19 +232,19 @@
       "noti_aps": [
         {
           "mac": "f7:67:31:5e:38:f5",
-          "operator": "-",
+          "operator": "<",
           "rssi": -84
         }
       ],
       "noti_clients": [
         {
           "mac": "9f:b3:63:8a:bc:b8",
-          "operator": "+",
+          "operator": ">",
           "rssi": -91
         },
         {
           "mac": "7c:28:ca:c8:53:fa",
-          "operator": "+",
+          "operator": ">",
           "rssi": -76
         },
         {
@@ -253,7 +253,7 @@
           "rssi": -31
         }
       ],
-      "noti_channels": ["2.4", "5.3", "6.5"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb18",
@@ -264,7 +264,7 @@
       "noti_aps": [
         {
           "mac": "3a:2e:a5:9d:a4:b3",
-          "operator": "+",
+          "operator": ">",
           "rssi": -14
         },
         {
@@ -274,7 +274,7 @@
         },
         {
           "mac": "6e:25:25:4e:ee:80",
-          "operator": "-",
+          "operator": "<",
           "rssi": -78
         }
       ],
@@ -286,16 +286,16 @@
         },
         {
           "mac": "07:9d:61:40:95:e3",
-          "operator": "+",
+          "operator": ">",
           "rssi": -67
         },
         {
           "mac": "a7:4f:60:7e:3c:c6",
-          "operator": "-",
+          "operator": "<",
           "rssi": -15
         }
       ],
-      "noti_channels": ["2.4", "5", "6.2"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "22e0f609-610f-401d-b0d9-92498278ce3c9",
@@ -311,12 +311,12 @@
         },
         {
           "mac": "6b:86:56:e3:ed:85",
-          "operator": "+",
+          "operator": ">",
           "rssi": -64
         },
         {
           "mac": "78:48:18:15:0a:e1",
-          "operator": "+",
+          "operator": ">",
           "rssi": -15
         }
       ],
@@ -332,7 +332,7 @@
           "rssi": -34
         }
       ],
-      "noti_channels": ["2.4.5", "5", "6"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "c45706c4-28ca-442d-b451-4bdad38891b110",
@@ -343,19 +343,19 @@
       "noti_aps": [
         {
           "mac": "f7:67:31:5e:38:f5",
-          "operator": "-",
+          "operator": "",
           "rssi": -84
         }
       ],
       "noti_clients": [
         {
           "mac": "9f:b3:63:8a:bc:b8",
-          "operator": "+",
+          "operator": ">",
           "rssi": -91
         },
         {
           "mac": "7c:28:ca:c8:53:fa",
-          "operator": "+",
+          "operator": ">",
           "rssi": -76
         },
         {
@@ -364,7 +364,7 @@
           "rssi": -31
         }
       ],
-      "noti_channels": ["2.4.3", "5.3", "6.3"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb1011",
@@ -375,7 +375,7 @@
       "noti_aps": [
         {
           "mac": "3a:2e:a5:9d:a4:b3",
-          "operator": "+",
+          "operator": ">",
           "rssi": -14
         },
         {
@@ -385,7 +385,7 @@
         },
         {
           "mac": "6e:25:25:4e:ee:80",
-          "operator": "-",
+          "operator": "<",
           "rssi": -78
         }
       ],
@@ -397,16 +397,16 @@
         },
         {
           "mac": "07:9d:61:40:95:e3",
-          "operator": "+",
+          "operator": ">",
           "rssi": -67
         },
         {
           "mac": "a7:4f:60:7e:3c:c6",
-          "operator": "-",
+          "operator": "<",
           "rssi": -15
         }
       ],
-      "noti_channels": ["2.4.1", "5.1", "6.5"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "22e0f609-610f-401d-b0d9-92498278ce3c12",
@@ -422,12 +422,12 @@
         },
         {
           "mac": "6b:86:56:e3:ed:85",
-          "operator": "+",
+          "operator": ">",
           "rssi": -64
         },
         {
           "mac": "78:48:18:15:0a:e1",
-          "operator": "+",
+          "operator": ">",
           "rssi": -15
         }
       ],
@@ -443,7 +443,7 @@
           "rssi": -34
         }
       ],
-      "noti_channels": ["2.4.4", "5.3", "6.5"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "c45706c4-28ca-442d-b451-4bdad38891b113",
@@ -454,19 +454,19 @@
       "noti_aps": [
         {
           "mac": "f7:67:31:5e:38:f5",
-          "operator": "-",
+          "operator": "<",
           "rssi": -84
         }
       ],
       "noti_clients": [
         {
           "mac": "9f:b3:63:8a:bc:b8",
-          "operator": "+",
+          "operator": ">",
           "rssi": -91
         },
         {
           "mac": "7c:28:ca:c8:53:fa",
-          "operator": "+",
+          "operator": ">",
           "rssi": -76
         },
         {
@@ -475,7 +475,7 @@
           "rssi": -31
         }
       ],
-      "noti_channels": ["2.4.4", "5.3", "6"]
+      "noti_channels": ["2.4"]
     },
     {
       "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb1014",
@@ -486,7 +486,7 @@
       "noti_aps": [
         {
           "mac": "3a:2e:a5:9d:a4:b3",
-          "operator": "+",
+          "operator": ">",
           "rssi": -14
         },
         {
@@ -496,7 +496,7 @@
         },
         {
           "mac": "6e:25:25:4e:ee:80",
-          "operator": "-",
+          "operator": "<",
           "rssi": -78
         }
       ],
@@ -508,16 +508,16 @@
         },
         {
           "mac": "07:9d:61:40:95:e3",
-          "operator": "+",
+          "operator": ">",
           "rssi": -67
         },
         {
           "mac": "a7:4f:60:7e:3c:c6",
-          "operator": "-",
+          "operator": ">",
           "rssi": -15
         }
       ],
-      "noti_channels": ["2.4.1", "5", "6.5"]
+      "noti_channels": ["2.4"]
     }
   ],
   "message": "Lấy danh sách sensor thành công"
