@@ -150,6 +150,18 @@ app.put('/api/v2/sensor/:id', (req, res) => {
   // Phát tín hiệu cập nhật qua WebSocket
   io.emit('sensorData', sensorData);
 
+  // Gửi cập nhật qua topic all/sync
+  const allSyncData = sensorData.data.map((sensor) => ({
+    id: sensor.id,
+    state: sensor.state, // Sử dụng field `status` làm trạng thái
+    cards: sensor.cards || [],
+    rules: sensor.rules || [],
+    time_limit: sensor.time_limit || 0,
+    packet_limit: sensor.packet_limit || 0,
+    attack_list: sensor.attack_list || {},
+  }));
+  io.emit('all/sync', allSyncData);
+
   // Phản hồi thành công
   res.status(200).json({
     code: 200,
@@ -204,13 +216,28 @@ app.post('/api/v2/sensor', (req, res) => {
     data: newSensor,
   });
 });
+
+let syncInterval = null;
 // Lắng nghe kết nối từ client
 io.on('connection', (socket) => {
   console.log('Client connected:', socket.id);
 
   // Gửi ngay dữ liệu sensor khi có kết nối
   socket.emit('sensorData', sensorData);
-
+  if (!syncInterval) {
+    syncInterval = setInterval(() => {
+      const allSyncData = sensorData.data.map((sensor) => ({
+        id: sensor.id,
+        state: sensor.state, // Sử dụng field `status` làm trạng thái
+        cards: sensor.cards || [],
+        rules: sensor.rules || [],
+        time_limit: sensor.time_limit || 0,
+        packet_limit: sensor.packet_limit || 0,
+        attack_list: sensor.attack_list || {},
+      }));
+      io.emit('all/sync', allSyncData); // Gửi tới tất cả các client
+    }, 5000); // Cập nhật mỗi 5 giây
+  }
   // Theo dõi thay đổi trong file data.json (Giả sử có sự thay đổi trong file này)
   fs.watch(dataFilePath, (eventType, filename) => {
     if (eventType === 'change') {
