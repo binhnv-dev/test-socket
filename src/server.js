@@ -74,7 +74,7 @@ app.delete('/api/v2/sensor/:id', (req, res) => {
 });
 let scanInterval = null;
 // Lắng nghe sự kiện startSensorScan từ client
-app.post('/api/v2/sensor/:id/start-scan', (req, res) => {
+app.post('/api/v2/sensor/:id/start', (req, res) => {
   const sensorId = req.params.id;
   console.log(`Start scan for sensor ID: ${sensorId}`);
 
@@ -87,13 +87,13 @@ app.post('/api/v2/sensor/:id/start-scan', (req, res) => {
   const scanDataMock = readScanData();
   // Bắt đầu quét và gửi dữ liệu định kỳ qua socket
   scanInterval = setInterval(() => {
-    io.emit(`sensor/${sensorId}/scanResultData`, scanDataMock);
+    io.emit(`sensor/${sensorId}/scanresult`, scanDataMock);
     console.log(123);
   }, 3000); // Gửi dữ liệu mỗi 3 giây
 });
 
 // Lắng nghe sự kiện stopSensorScan từ client
-app.post('/api/v2/sensor/:id/stop-scan', (req, res) => {
+app.post('/api/v2/sensor/:id/stop', (req, res) => {
   const sensorId = req.params.id;
   console.log(`Stop scan for sensor ID: ${sensorId}`);
 

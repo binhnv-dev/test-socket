@@ -2,40 +2,8 @@
   "code": 200,
   "data": [
     {
-      "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb11",
-      "name": "Sensor test",
-      "status": 0,
-      "last_seen": "2024-04-01T23:50:56",
-      "position": "Vị trí 1",
-      "noti_aps": [
-        {
-          "mac": "f7:67:31:5e:38:f5",
-          "operator": "<",
-          "rssi": -84
-        }
-      ],
-      "noti_clients": [
-        {
-          "mac": "9f:b3:63:8a:bc:b8",
-          "operator": ">",
-          "rssi": -91
-        },
-        {
-          "mac": "7c:28:ca:c8:53:fa",
-          "operator": "<",
-          "rssi": -76
-        },
-        {
-          "mac": "4f:31:38:0b:d3:a7",
-          "operator": "",
-          "rssi": -31
-        }
-      ],
-      "noti_channels": ["2.4"]
-    },
-    {
       "id": "faed366e-fd9d-4d16-9de2-8c6815ffdb12",
-      "name": "Sensor 229",
+      "name": "Sensor 230",
       "status": 2,
       "last_seen": "2024-09-28T07:42:30",
       "position": "Vị trí 2",
@@ -73,7 +41,8 @@
           "rssi": -15
         }
       ],
-      "noti_channels": ["2.4"]
+      "noti_channels": [2.4],
+      "token": ""
     },
     {
       "id": "22e0f609-610f-401d-b0d9-92498278ce3c3",
@@ -518,6 +487,26 @@
         }
       ],
       "noti_channels": ["2.4"]
+    },
+    {
+      "id": "2638f947-f49d-41a6-b8a4-f7b173bd6304",
+      "name": "name_1",
+      "position": "position_1",
+      "status": 0,
+      "last_seen": "2024-11-30T07:57:56.088Z",
+      "noti_aps": [],
+      "noti_clients": [],
+      "noti_channels": []
+    },
+    {
+      "id": "5d56e59f-3d48-4d24-8a18-c8d61e863011",
+      "name": "name 2",
+      "position": "position 2",
+      "status": 0,
+      "last_seen": "2024-12-01T13:09:06.379Z",
+      "noti_aps": [],
+      "noti_clients": [],
+      "noti_channels": []
     }
   ],
   "message": "Lấy danh sách sensor thành công"
